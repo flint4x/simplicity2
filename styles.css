@@ -73,3 +73,35 @@ body {
   padding: 1rem;
   font-size: 1.1rem;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
+
+.logo {
+  color: #007BFF;
+  font-size: 1.8rem;
+  font-weight: bold;
+  flex: 1;
+}
+
+.credit {
+  color: #ccc;
+  font-size: 1rem;
+  text-align: center;
+  flex: 1;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: flex-end;
+  flex: 1;
+}
+
