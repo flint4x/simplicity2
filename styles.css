@@ -105,3 +105,32 @@ body {
   flex: 1;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px); /* Adjust for header height */
+  padding: 2rem;
+}
+
+.about-section {
+  max-width: 800px;
+  text-align: center;
+  background-color: #1a1a1a;
+  padding: 3rem;
+  border-radius: 10px;
+  color: #eee;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.about-section h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #007BFF;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
