@@ -134,3 +134,11 @@ main {
   line-height: 1.6;
   margin-bottom: 1rem;
 }
+
+.about-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px); 
+  padding: 2rem;
+}
